@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical" >
+
+    <LinearLayout 
+        android:id="@+id/ll_ip"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        >
+        
+        <EditText 
+            android:id="@+id/et_ip"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            />
+        
+        <Button 
+            android:id="@+id/bt_link"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="连接"
+            />
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:id="@+id/ll_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        >
+        <LinearLayout 
+            android:id="@+id/ll_buttons_1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            >
+            <Button 
+                android:id="@+id/bt_num_1"
+                 style="@style/num_style"
+                android:text="1"
+                />
+           <Button 
+                android:id="@+id/bt_num_2"
+                 style="@style/num_style"
+                android:text="2"
+                />
+            <Button 
+                android:id="@+id/bt_num_3"
+                 style="@style/num_style"
+                android:text="3"
+                />
+        </LinearLayout>
+        
+        <LinearLayout 
+            android:id="@+id/ll_buttons_2"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            >
+            <Button 
+                android:id="@+id/bt_num_4"
+                 style="@style/num_style"
+                android:text="4"
+                />
+           <Button 
+                android:id="@+id/bt_num_5"
+                 style="@style/num_style"
+                android:text="5"
+                />
+            <Button 
+                android:id="@+id/bt_num_6"
+                 style="@style/num_style"
+                android:text="6"
+                />
+        </LinearLayout>
+        
+        <LinearLayout 
+            android:id="@+id/ll_buttons_3"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            >
+            <Button 
+                android:id="@+id/bt_num_7"
+                 style="@style/num_style"
+                android:text="7"
+                />
+           <Button 
+                android:id="@+id/bt_num_8"
+                 style="@style/num_style"
+                android:text="8"
+                />
+            <Button 
+                android:id="@+id/bt_num_9"
+                 style="@style/num_style"
+                android:text="9"
+                />
+        </LinearLayout>
+        
+    </LinearLayout>
+    
+    
+    <ScrollView 
+        android:id="@+id/sv_text"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        >
+        
+         <TextView 
+	        android:id="@+id/tv_received"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:textColor="#000000"
+	        />
+        
+    </ScrollView>
+   
+    
+    
+    
+    <LinearLayout 
+        android:id="@+id/ll_message"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        >
+        
+        <EditText 
+            android:id="@+id/et_message"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            />
+        
+        <Button 
+            android:id="@+id/bt_send"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="发送"
+            />
+    </LinearLayout>
+    
+
+</LinearLayout>
